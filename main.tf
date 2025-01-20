@@ -4,7 +4,7 @@ provider "aws" {
     secret_key = "fEz8+tOpz1HYzvH+eesY/lQXsHL9Hjy65/6E2DFi"
 }
 
-resource "aws_instance" "ec2" {
+resource "aws_instance" "myec2" {
     ami = var.ami
     instance_type = var.instance_type
 }
